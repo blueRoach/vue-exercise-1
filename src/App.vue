@@ -2,16 +2,19 @@
   <div id="app">
     
     <left-nav></left-nav>
+    <pos></pos>
     <router-view/>
   </div>
 </template>
 
 <script>
 import leftNav from '@/components/common/leftNav'
+import pos from '@/components/page/pos'
 export default {
   name: 'App',
   components:{
-    leftNav
+    leftNav,
+    pos
   }
 }
 </script>
